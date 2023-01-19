@@ -1,0 +1,55 @@
+*{
+    background-color: blanchedalmond;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    
+
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    
+}
+
+.input-text{
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.botao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.botao {
+   display: flex;
+   flex-direction: column;
+   
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.botao:hover {
+       
+       transition: 1.5s;
+       background-color: rgb(98, 98, 98);
+}
